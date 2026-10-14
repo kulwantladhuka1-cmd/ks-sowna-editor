@@ -1,4 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+
+import FontPicker from './FontPicker';
+
 import {
   Layer,
   TextLayer,
@@ -58,6 +61,9 @@ interface HistorySnapshot {
 export default function App() {
   // Localization: English default with Punjabi toggle
   const [lang, setLang] = useState<Language>('en');
+  
+const [selectedFont, setSelectedFont] = useState('Noto Sans Gurmukhi');
+
   const t = translations[lang];
 
   // View Mode: 'editor' vs 'home'
