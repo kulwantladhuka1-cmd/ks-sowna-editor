@@ -1,0 +1,6 @@
+{
+  "name": "KS SOWNA – Photo & Logo Editor",
+  "description": "Modern Canva-inspired mobile-first photo and logo editor with Punjabi Gurmukhi text support, rich templates, curved text, shapes, stickers, and HD export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
